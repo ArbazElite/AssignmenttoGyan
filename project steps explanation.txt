@@ -1,0 +1,9 @@
+1. Created two buckets for Disease & other article
+2. Extracted the Title & p tag for article details (other tag doesn't carry important data)
+3. Used NTLK to remove stopwords & create own bag of words for further training
+4. Created dataframe for disease & other articles.
+5. Added one more column for with values like Disease & other to identify the articles.
+6. I used Random Forest Classifier algorithm for classification
+7. Used Grid Search CV to find best parameters & got the accuracy of 99.6
+
+Additional Points- (1) 36 duplicate files are there
